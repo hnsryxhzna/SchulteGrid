@@ -21,6 +21,7 @@ struct ContentView: View {
     @State private var startTime: Date? = nil
     @State private var elapsedTime: TimeInterval = 0
     @State private var timer: Timer? = nil
+    @State private var highlightTapped = true
     
     var columns: [GridItem] {
         Array(repeating: GridItem(.flexible(), spacing: 4), count: gridSize)
@@ -37,7 +38,7 @@ struct ContentView: View {
             case .game:
                 gameView
             case .settings:
-                SettingView(gridSize: $gridSize)
+                SettingView(gridSize: $gridSize, highlightTapped: $highlightTapped)
             }
         }
         .onChange(of: gridSize) {
@@ -53,24 +54,33 @@ struct ContentView: View {
             Text(String(format: "%.1f s", elapsedTime))
                 .font(.system(size: 36, weight: .bold, design: .monospaced))
             
-            LazyVGrid(columns: columns, spacing: 4) {
-                ForEach(numbers, id: \.self) { number in
-                    Button(action: { tapped(number) }) {
-                        Text("\(number)")
-                            .font(.title2)
-                            .fontWeight(.medium)
-                            .frame(width: 60, height: 60)
-                            .backgroundStyle(number < nextTarget ? Color.green.opacity(0.3) : Color.blue.opacity(0.1))
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 8)
-                                    .stroke(Color.gray, lineWidth: 1)
-                            )
-                            .cornerRadius(8)
-                            .contentShape(Rectangle())
+            GeometryReader { geo in
+                let size = min(geo.size.width, geo.size.height)
+                let cellSize = size / CGFloat(gridSize)
+                
+                LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 2), count: gridSize), spacing: 2) {
+                    ForEach(numbers, id: \.self) { number in
+                        Button(action: { tapped(number) }) {
+                            Text("\(number)")
+                                .font(.title2)
+                                .fontWeight(.medium)
+                                .frame(width: cellSize - 2, height: cellSize - 2)
+                                .background(
+                                    ZStack {
+                                        VisualEffectBlur()
+                                        Color.white.opacity(number < nextTarget && highlightTapped ? 0.4 : 0.15)
+                                    }
+                                    .cornerRadius(6)
+                                )
+                                .cornerRadius(6)
+                                .contentShape(Rectangle())
+                        }
+                        .buttonStyle(.plain)
                     }
-                    .buttonStyle(.plain)
                 }
+                .frame(width: size, height: size)
             }
+            .aspectRatio(1, contentMode: .fit)
             
             if isFinished {
                 Text("Done!").font(.title)

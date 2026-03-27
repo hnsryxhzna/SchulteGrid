@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SettingView: View {
     @Binding var gridSize: Int
+    @Binding var highlightTapped: Bool
     
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
@@ -27,6 +28,8 @@ struct SettingView: View {
                 }
                 .pickerStyle(.segmented)
             }
+            
+            Toggle("Highlight tapped numbers", isOn: $highlightTapped)
             
             Spacer()
         }
