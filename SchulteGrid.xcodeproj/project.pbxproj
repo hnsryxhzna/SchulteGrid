@@ -21,12 +21,29 @@
 			remoteGlobalIDString = E64A12242F74C72C00E6022E;
 			remoteInfo = SchulteGrid;
 		};
+		E6F2A29A2F76C056002C0D77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E64A121D2F74C72C00E6022E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6F2A28C2F76C054002C0D77;
+			remoteInfo = SchulteGrid_iphone;
+		};
+		E6F2A2A42F76C056002C0D77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E64A121D2F74C72C00E6022E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6F2A28C2F76C054002C0D77;
+			remoteInfo = SchulteGrid_iphone;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E64A12252F74C72C00E6022E /* SchulteGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchulteGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64A12322F74C72D00E6022E /* SchulteGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchulteGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64A123C2F74C72D00E6022E /* SchulteGridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchulteGridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F2A28D2F76C054002C0D77 /* SchulteGrid_iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchulteGrid_iphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F2A2992F76C056002C0D77 /* SchulteGrid_iphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchulteGrid_iphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F2A2A32F76C056002C0D77 /* SchulteGrid_iphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchulteGrid_iphoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +60,21 @@
 		E64A123F2F74C72D00E6022E /* SchulteGridUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SchulteGridUITests;
+			sourceTree = "<group>";
+		};
+		E6F2A28E2F76C054002C0D77 /* SchulteGrid_iphone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SchulteGrid_iphone;
+			sourceTree = "<group>";
+		};
+		E6F2A29C2F76C056002C0D77 /* SchulteGrid_iphoneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SchulteGrid_iphoneTests;
+			sourceTree = "<group>";
+		};
+		E6F2A2A62F76C056002C0D77 /* SchulteGrid_iphoneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SchulteGrid_iphoneUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +101,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6F2A28A2F76C054002C0D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F2A2962F76C056002C0D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F2A2A02F76C056002C0D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +131,9 @@
 				E64A12272F74C72C00E6022E /* SchulteGrid */,
 				E64A12352F74C72D00E6022E /* SchulteGridTests */,
 				E64A123F2F74C72D00E6022E /* SchulteGridUITests */,
+				E6F2A28E2F76C054002C0D77 /* SchulteGrid_iphone */,
+				E6F2A29C2F76C056002C0D77 /* SchulteGrid_iphoneTests */,
+				E6F2A2A62F76C056002C0D77 /* SchulteGrid_iphoneUITests */,
 				E64A12262F74C72C00E6022E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +144,9 @@
 				E64A12252F74C72C00E6022E /* SchulteGrid.app */,
 				E64A12322F74C72D00E6022E /* SchulteGridTests.xctest */,
 				E64A123C2F74C72D00E6022E /* SchulteGridUITests.xctest */,
+				E6F2A28D2F76C054002C0D77 /* SchulteGrid_iphone.app */,
+				E6F2A2992F76C056002C0D77 /* SchulteGrid_iphoneTests.xctest */,
+				E6F2A2A32F76C056002C0D77 /* SchulteGrid_iphoneUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +222,74 @@
 			productReference = E64A123C2F74C72D00E6022E /* SchulteGridUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E6F2A28C2F76C054002C0D77 /* SchulteGrid_iphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6F2A2AB2F76C056002C0D77 /* Build configuration list for PBXNativeTarget "SchulteGrid_iphone" */;
+			buildPhases = (
+				E6F2A2892F76C054002C0D77 /* Sources */,
+				E6F2A28A2F76C054002C0D77 /* Frameworks */,
+				E6F2A28B2F76C054002C0D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E6F2A28E2F76C054002C0D77 /* SchulteGrid_iphone */,
+			);
+			name = SchulteGrid_iphone;
+			packageProductDependencies = (
+			);
+			productName = SchulteGrid_iphone;
+			productReference = E6F2A28D2F76C054002C0D77 /* SchulteGrid_iphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6F2A2982F76C056002C0D77 /* SchulteGrid_iphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6F2A2AE2F76C056002C0D77 /* Build configuration list for PBXNativeTarget "SchulteGrid_iphoneTests" */;
+			buildPhases = (
+				E6F2A2952F76C056002C0D77 /* Sources */,
+				E6F2A2962F76C056002C0D77 /* Frameworks */,
+				E6F2A2972F76C056002C0D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6F2A29B2F76C056002C0D77 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E6F2A29C2F76C056002C0D77 /* SchulteGrid_iphoneTests */,
+			);
+			name = SchulteGrid_iphoneTests;
+			packageProductDependencies = (
+			);
+			productName = SchulteGrid_iphoneTests;
+			productReference = E6F2A2992F76C056002C0D77 /* SchulteGrid_iphoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6F2A2A22F76C056002C0D77 /* SchulteGrid_iphoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6F2A2B12F76C056002C0D77 /* Build configuration list for PBXNativeTarget "SchulteGrid_iphoneUITests" */;
+			buildPhases = (
+				E6F2A29F2F76C056002C0D77 /* Sources */,
+				E6F2A2A02F76C056002C0D77 /* Frameworks */,
+				E6F2A2A12F76C056002C0D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6F2A2A52F76C056002C0D77 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E6F2A2A62F76C056002C0D77 /* SchulteGrid_iphoneUITests */,
+			);
+			name = SchulteGrid_iphoneUITests;
+			packageProductDependencies = (
+			);
+			productName = SchulteGrid_iphoneUITests;
+			productReference = E6F2A2A32F76C056002C0D77 /* SchulteGrid_iphoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,8 +297,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2630;
-				LastUpgradeCheck = 2630;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
 				TargetAttributes = {
 					E64A12242F74C72C00E6022E = {
 						CreatedOnToolsVersion = 26.3;
@@ -183,6 +310,17 @@
 					E64A123B2F74C72D00E6022E = {
 						CreatedOnToolsVersion = 26.3;
 						TestTargetID = E64A12242F74C72C00E6022E;
+					};
+					E6F2A28C2F76C054002C0D77 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					E6F2A2982F76C056002C0D77 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = E6F2A28C2F76C054002C0D77;
+					};
+					E6F2A2A22F76C056002C0D77 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = E6F2A28C2F76C054002C0D77;
 					};
 				};
 			};
@@ -203,6 +341,9 @@
 				E64A12242F74C72C00E6022E /* SchulteGrid */,
 				E64A12312F74C72D00E6022E /* SchulteGridTests */,
 				E64A123B2F74C72D00E6022E /* SchulteGridUITests */,
+				E6F2A28C2F76C054002C0D77 /* SchulteGrid_iphone */,
+				E6F2A2982F76C056002C0D77 /* SchulteGrid_iphoneTests */,
+				E6F2A2A22F76C056002C0D77 /* SchulteGrid_iphoneUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +364,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E64A123A2F74C72D00E6022E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F2A28B2F76C054002C0D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F2A2972F76C056002C0D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F2A2A12F76C056002C0D77 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +415,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6F2A2892F76C054002C0D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F2A2952F76C056002C0D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F2A29F2F76C056002C0D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +448,16 @@
 			isa = PBXTargetDependency;
 			target = E64A12242F74C72C00E6022E /* SchulteGrid */;
 			targetProxy = E64A123D2F74C72D00E6022E /* PBXContainerItemProxy */;
+		};
+		E6F2A29B2F76C056002C0D77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6F2A28C2F76C054002C0D77 /* SchulteGrid_iphone */;
+			targetProxy = E6F2A29A2F76C056002C0D77 /* PBXContainerItemProxy */;
+		};
+		E6F2A2A52F76C056002C0D77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6F2A28C2F76C054002C0D77 /* SchulteGrid_iphone */;
+			targetProxy = E6F2A2A42F76C056002C0D77 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -303,6 +496,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = VHCH963GBA;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -328,6 +522,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -367,6 +562,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = VHCH963GBA;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -385,6 +581,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -398,6 +595,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = VHCH963GBA;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -414,11 +612,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -431,6 +632,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = VHCH963GBA;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -447,11 +649,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -461,6 +666,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = VHCH963GBA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
@@ -482,6 +688,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = VHCH963GBA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
@@ -502,6 +709,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = VHCH963GBA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
@@ -521,6 +729,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = VHCH963GBA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
@@ -532,6 +741,167 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = SchulteGrid;
+			};
+			name = Release;
+		};
+		E6F2A2AC2F76C056002C0D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHCH963GBA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hyx.SchulteGrid-iphone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6F2A2AD2F76C056002C0D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHCH963GBA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hyx.SchulteGrid-iphone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6F2A2AF2F76C056002C0D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHCH963GBA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hyx.SchulteGrid-iphoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchulteGrid_iphone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SchulteGrid_iphone";
+			};
+			name = Debug;
+		};
+		E6F2A2B02F76C056002C0D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHCH963GBA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hyx.SchulteGrid-iphoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchulteGrid_iphone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SchulteGrid_iphone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6F2A2B22F76C056002C0D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHCH963GBA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hyx.SchulteGrid-iphoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SchulteGrid_iphone;
+			};
+			name = Debug;
+		};
+		E6F2A2B32F76C056002C0D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHCH963GBA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hyx.SchulteGrid-iphoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SchulteGrid_iphone;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -570,6 +940,33 @@
 			buildConfigurations = (
 				E64A124D2F74C72D00E6022E /* Debug */,
 				E64A124E2F74C72D00E6022E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6F2A2AB2F76C056002C0D77 /* Build configuration list for PBXNativeTarget "SchulteGrid_iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6F2A2AC2F76C056002C0D77 /* Debug */,
+				E6F2A2AD2F76C056002C0D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6F2A2AE2F76C056002C0D77 /* Build configuration list for PBXNativeTarget "SchulteGrid_iphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6F2A2AF2F76C056002C0D77 /* Debug */,
+				E6F2A2B02F76C056002C0D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6F2A2B12F76C056002C0D77 /* Build configuration list for PBXNativeTarget "SchulteGrid_iphoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6F2A2B22F76C056002C0D77 /* Debug */,
+				E6F2A2B32F76C056002C0D77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

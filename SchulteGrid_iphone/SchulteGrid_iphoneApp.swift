@@ -1,8 +1,8 @@
 //
-//  SchulteGridApp.swift
-//  SchulteGrid
+//  SchulteGrid_iphoneApp.swift
+//  SchulteGrid_iphone
 //
-//  Created by yx h on 26/3/2026.
+//  Created by yx h on 27/3/2026.
 //
 
 import SwiftUI
