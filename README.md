@@ -1,8 +1,10 @@
 # SchulteGrid
 A concentration training app built with SwiftUI, available for macOS and iPhone.
 
-![App Screenshot](assets/light_33.png)
-![App Screenshot](assets/dark_66.png)
+<p>
+  <img src="assets/light_33.png" width="45%" />
+  <img src="assets/dark_66.png" width="45%" />
+</p>
 
 ## Features
 - **Multiple grid sizes** — choose from 3×3, 4×4, 5×5, or 6×6
