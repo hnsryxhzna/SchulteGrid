@@ -34,7 +34,9 @@ struct ContentView: View {
             gameView
                 .tabItem { Label("Game", systemImage: "gamecontroller") }
                 .tag(SidebarItem.game)
-                .preferredColorScheme(isDarkMode ? .dark : .light)
+                .onChange(of: isDarkMode) {
+                    NSApp.appearance = isDarkMode ? NSAppearance(named: .darkAqua) : NSAppearance(named: .aqua)
+                }
                 
             SettingView(gridSize: $gridSize, highlightTapped: $highlightTapped, isDarkMode: $isDarkMode)
                 .tabItem { Label("Settings", systemImage: "gearshape") }
@@ -46,7 +48,7 @@ struct ContentView: View {
         VStack(spacing: 20) {
             Text(isFinished ? "Done! 🎉" : "Tap \(nextTarget)").font(.title2)
             
-            Text(String(format: "%.1f s", elapsedTime))
+            Text(String(format: "%.2f s", elapsedTime))
                 .font(.system(size: 36, weight: .bold, design: .monospaced))
             
             GeometryReader { geo in
@@ -119,9 +121,12 @@ struct ContentView: View {
         startTime = Date()
         timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { _ in
             if let startTime = startTime {
-                elapsedTime = Date().timeIntervalSince(startTime)
+                DispatchQueue.main.async {
+                    elapsedTime = Date().timeIntervalSince(startTime)
+                }
             }
         }
+        RunLoop.main.add(timer!, forMode: .common)
     }
     
     struct ScaleButtonStyle: ButtonStyle {
